@@ -6,7 +6,7 @@ rel="stylesheet"href=" .Istyle.css
 ">
 4 </head>
 5 <body></body>
-6 <h1>Informatika</h1>
+6 <h1>Karhutla, Kalimantan</h1>
 7 - <ul>
 8 <1i>Beranda</li>
 9 - <11><a
