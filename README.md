@@ -4,12 +4,12 @@
 <link
 rel="stylesheet"href=" .Istyle.css
 ">
-4 </head>
-5 <body></body>
-6 <h1>Karhutla, Kalimantan</h1>
-7 - <ul>
-8 <1i>Beranda</li>
-9 - <11><a
+ </head>
+ <body></body>
+ <h1>Karhutla, Kalimantan</h1>
+ - <ul>
+ <1i>Beranda</li>
+ - <11><a
 10
 href="desain.html">Desain</a>
 </li>
@@ -24,6 +24,4 @@ href="desain.html">Desain</a>
 href="produk.html">Produk</a>
 </li>
 </ul>
-<p>hello everyone‹/p>
-</body>
-</html>
+
