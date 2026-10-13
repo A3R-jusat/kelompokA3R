@@ -1,15 +1,14 @@
 # kelompokA3R
-<! DOCTYPE html>
-2 ' <head>
+<!DOCTYPE html>
+ <head>
 <link
 rel="stylesheet"href=" .Istyle.css
 ">
  </head>
  <body></body>
  <h1>Karhutla, Kalimantan</h1>
- - <ul>
- <1i>Beranda</li>
- - <11><a
+  <ul> <1i>Beranda</li>
+ <11><a
 10
 href="desain.html">Desain</a>
 </li>
