@@ -7,12 +7,15 @@ rel="stylesheet"href=" .Istyle.css
  </head>
  <body></body>
  <h1>Karhutla, Kalimantan</h1>
-  <ul> <1i>Beranda</li>
- <11><a
+  <ul> 
+   <a
+   href=“Beranda.html”>Beranda</a>
+   </li>
+ <a
 10
 href="desain.html">Desain</a>
 </li>
-<1i><a
+<a
 11 +
 12
 13
