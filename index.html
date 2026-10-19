@@ -163,31 +163,6 @@ footer{background:var(--grass2);color:#eaf6e6;padding:34px 0 46px;font-size:.92r
 </div></section>
 </main>
 
-<footer><div class="wrap">Halaman edukasi umum, bukan peringatan resmi. Untuk status terkini, rujuk SiPongi, BMKG, dan pemerintah daerah. A3R · dibuat untuk Kalimantan yang tetap hijau.</div></footer>
-
-<script>
-var LV=[
- {m:50,n:"Baik",c:"#dff3df",t:"Udara aman untuk semua aktivitas. Nikmati harimu!"},
- {m:100,n:"Sedang",c:"#f2f0cf",t:"Orang yang sangat sensitif sebaiknya memantau kondisi."},
- {m:200,n:"Tidak sehat",c:"#f8e1c2",t:"Kurangi aktivitas berat di luar. Anak, lansia, dan penderita asma perlu ekstra hati-hati."},
- {m:300,n:"Sangat tidak sehat",c:"#f6cdc0",t:"Batasi keluar rumah, pakai masker N95, dan tutup ventilasi."},
- {m:1e9,n:"Berbahaya",c:"#e6b3b6",t:"Tetap di dalam ruangan. Cari bantuan medis bila sesak napas dan ikuti arahan pemerintah daerah."}
-];
-var r=document.getElementById("ispu"),sc=document.getElementById("scr");
-function up(){var n=+r.value,L=LV.find(function(l){return n<=l.m});
- document.getElementById("val").textContent=n>=400?"400+":n;
- document.getElementById("cat").textContent=L.n;document.getElementById("adv").textContent=L.t;
- sc.style.setProperty("--sc",L.c)}
-r.addEventListener("input",up);up();
-
-var P=["Tidak membakar sampah atau lahan","Melapor ke desa atau BPBD kalau melihat asap atau api","Mendukung produk yang dibuka tanpa bakar","Memakai masker N95 saat udara tidak sehat","Mengajak satu teman atau keluarga ikut peduli"];
-var ul=document.getElementById("pledge"),h=document.getElementById("hearts"),dn=document.getElementById("done");
-P.forEach(function(t,i){var li=document.createElement("li");
- li.innerHTML='<label><input type="checkbox" id="p'+i+'"><span></span></label>';
- li.querySelector("span").textContent="Saya akan: "+t.charAt(0).toLowerCase()+t.slice(1);ul.appendChild(li)});
-function hearts(){var k=ul.querySelectorAll("input:checked").length;
- h.textContent="♥️".repeat(k)+"♡".repeat(P.length-k);dn.style.display=k===P.length?"block":"none"}
-ul.addEventListener("change",hearts);hearts();
-</script>
+<footer><div class="wrap">Halaman edukasi umum, bukan peringatan resmi. Untuk status terkini, rujuk SiPongi, BMKG, dan pemerintah daerah. A3R · dibuat untuk Kalimantan yang tetap hijau.</div></
 </body>
 </html>
