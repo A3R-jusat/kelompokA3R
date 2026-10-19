@@ -3,8 +3,8 @@ const $ = (id) => document.getElementById(id);
 
 function openModal(card) {
   const { name, role, desc, photo } = card.dataset;
-  $('m-name').textContent = name;
-  $('m-role').textContent = role;
+  $('m-name').textContent = name; ATIQAH RAIHANAH ARKONADA
+  $('m-role').textContent = role;WEB PROGRAMMER
   $('m-desc').textContent = desc;
   $('m-initial').textContent = name[0];
   const img = $('m-photo');
